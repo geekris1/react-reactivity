@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_MISSING_PACKAGE_NAME",
+    "err": {
+      "name": "pnpm",
+      "message": "`pnpm add` requires the package name",
+      "code": "ERR_PNPM_MISSING_PACKAGE_NAME",
+      "stack": "pnpm: `pnpm add` requires the package name\n    at Object.handler [as add] (/opt/homebrew/Cellar/node/16.1.0/pnpm-global/5/node_modules/.pnpm/pnpm@7.1.0/node_modules/pnpm/dist/pnpm.cjs:121775:15)\n    at /opt/homebrew/Cellar/node/16.1.0/pnpm-global/5/node_modules/.pnpm/pnpm@7.1.0/node_modules/pnpm/dist/pnpm.cjs:176439:51\n    at async run (/opt/homebrew/Cellar/node/16.1.0/pnpm-global/5/node_modules/.pnpm/pnpm@7.1.0/node_modules/pnpm/dist/pnpm.cjs:176415:34)\n    at async runPnpm (/opt/homebrew/Cellar/node/16.1.0/pnpm-global/5/node_modules/.pnpm/pnpm@7.1.0/node_modules/pnpm/dist/pnpm.cjs:176633:5)\n    at async /opt/homebrew/Cellar/node/16.1.0/pnpm-global/5/node_modules/.pnpm/pnpm@7.1.0/node_modules/pnpm/dist/pnpm.cjs:176625:7"
+    }
+  }
+}

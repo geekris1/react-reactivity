@@ -1,7 +1,7 @@
 import { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { useReactive } from "./hoos/useReactive";
+import { useReactive } from "./hooks/useReactive";
 
 function App() {
   const proxy = useReactive({ count: 0 });

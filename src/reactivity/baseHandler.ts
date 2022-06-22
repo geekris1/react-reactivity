@@ -3,7 +3,7 @@ import { trigger } from "./effect";
 import { reactive } from "./reactive";
 
 export const enum Flags {
-  isReactivity = "isReactivty",
+  isReactivity = "isReactivity",
 }
 const baseHandler = {
   get: (target: Record<string, any>, p: string, receiver: any) => {

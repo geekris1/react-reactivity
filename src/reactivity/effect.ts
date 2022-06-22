@@ -1,6 +1,6 @@
 export const targetMap = new WeakMap();
 
-interface Renner {
+interface Runner {
   (): () => void;
   effect: ReactiveEffect;
 }
@@ -17,10 +17,10 @@ class ReactiveEffect {
 function effect(target: Record<string, any>, fn: Function) {
   const _effect = new ReactiveEffect(fn);
   track(target, _effect);
-  // interface Renner 不知道为啥不好使了,改成any吧
-  const renner: any = _effect.run.bind(_effect);
-  renner.effect = _effect;
-  return renner;
+  // interface Runner 不知道为啥不好使了,改成any吧
+  const runner: any = _effect.run.bind(_effect);
+  runner.effect = _effect;
+  return runner;
 }
 
 function track(target: Record<string, any>, activeEffect: ReactiveEffect) {

@@ -12,7 +12,15 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello vue Reactivity + React!</p>
         <p>
-          <button type="button" onClick={() => (proxy.count += 1)}>
+          <button
+            type="button"
+            onClick={() => {
+              proxy.count += 1;
+              proxy.count += 1;
+              proxy.count += 1;
+              proxy.count += 1;
+            }}
+          >
             count is: {proxy.count}
           </button>
         </p>

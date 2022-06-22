@@ -25,7 +25,7 @@ function App() {
           </button>
         </p>
         <p>
-          by <code>geerksi1</code>
+          by <code>geekrsi1</code>
         </p>
         <p></p>
       </header>
